@@ -1,4 +1,4 @@
-package com.dicoding.rjndrkha.jetcoffee.ui.theme.components
+package com.dicoding.rjndrkha.jetcoffee.ui.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable

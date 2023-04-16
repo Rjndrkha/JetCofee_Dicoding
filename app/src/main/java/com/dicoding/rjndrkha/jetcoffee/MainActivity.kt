@@ -23,18 +23,21 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.dicoding.rjndrkha.jetcoffee.model.*
+import com.dicoding.rjndrkha.jetcoffee.ui.components.CategoryItem
+import com.dicoding.rjndrkha.jetcoffee.ui.components.HomeSection
+import com.dicoding.rjndrkha.jetcoffee.ui.components.MenuItem
+import com.dicoding.rjndrkha.jetcoffee.ui.components.SearchBar
 import com.dicoding.rjndrkha.jetcoffee.ui.theme.JetCoffeeTheme
 import com.dicoding.rjndrkha.jetcoffee.ui.theme.LightGray
-import com.dicoding.rjndrkha.jetcoffee.ui.theme.components.*
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-//            JetCoffeeTheme {
-//                JetCoffeeApp()
-//            }
-            JetCoffeeAppPreview()
+            JetCoffeeTheme {
+                JetCoffeeApp()
+            }
+            //JetCoffeeAppPreview()
         }
     }
 }
